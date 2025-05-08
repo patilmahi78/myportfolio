@@ -15,9 +15,9 @@ const Home = () => {
   const devopsSkills = [
     "AWS",
     "Docker",
-    "Kubernetes",
+    "Basics of Terraform & Kubernetes",
     "Terraform",
-    "GitHub Actions",
+    "Git, Jenkins, SonarQube",
     "CI/CD Pipelines",
     "EC2, S3, IAM, CloudFront",
   ];
