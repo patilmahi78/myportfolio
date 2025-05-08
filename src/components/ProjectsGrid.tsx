@@ -36,7 +36,7 @@ const ProjectCard: React.FC<ProjectCardProps> = ({
         />
       </div>
       <div className="p-6 flex flex-col flex-grow">
-        <h3 className="text-xl font-bold mb-2">{title}</h3>
+        <h3 className="text-xl font-bold mb-2 text-[#F4A261]">{title}</h3>
         <p className="text-muted-foreground mb-4 flex-grow">{description}</p>
         <div className="flex flex-wrap gap-2 mb-4">
           {technologies.map((tech, index) => (
@@ -124,7 +124,7 @@ const ProjectsGrid: React.FC<ProjectsGridProps> = ({
           className="flex justify-center mt-12"
         >
           <a
-            href="#"
+            href="/projects"
             className="px-6 py-3 bg-[#F4A261] text-black font-medium rounded-md hover:bg-opacity-80 transition-all duration-300 flex items-center"
           >
             Explore More Cloud Projects
